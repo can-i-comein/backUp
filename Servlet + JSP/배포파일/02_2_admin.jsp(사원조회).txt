@@ -1,0 +1,50 @@
+			<table id="empList">
+				<tr>
+					<th width="6%">사번</th>
+					<th width="10%">이름</th>
+					<th width="10%">직업</th>
+					<th width="10%">매니저</th>
+					<th width="10%">입사일</th>
+					<th width="10%">급여</th>
+					<th width="10%">커미션</th>
+					<th width="10%">부서</th>
+					<th width="12%">관리자</th>
+					<th width="12%">활동여부</th>
+				</tr>
+				<tr>
+					<td>7844</td>
+					<td>TURNER</td>
+					<td>SALESMAN</td>
+					<td>BLAKE</td>
+					<td>1981-09-08</td>
+					<td>1500</td>
+					<td>500</td>
+					<td>OPERATIONS</td>
+					<td>N</td>
+					<td>N</td>
+				</tr>
+				<tr>
+					<td>7844</td>
+					<td>TURNER</td>
+					<td>SALESMAN</td>
+					<td>BLAKE</td>
+					<td>1981-09-08</td>
+					<td>1500</td>
+					<td>500</td>
+					<td>OPERATIONS</td>
+					<td>N</td>
+					<td>N</td>
+				</tr>
+				<tr>
+					<td>7844</td>
+					<td>TURNER</td>
+					<td>SALESMAN</td>
+					<td>BLAKE</td>
+					<td>1981-09-08</td>
+					<td>1500</td>
+					<td>500</td>
+					<td>OPERATIONS</td>
+					<td>N</td>
+					<td>N</td>
+				</tr>
+			</table>

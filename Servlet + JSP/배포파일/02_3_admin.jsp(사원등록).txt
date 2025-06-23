@@ -1,0 +1,57 @@
+			<form action="${ contextPath }/insertEmp.me" method="post" id="enrollForm" name="enrollFrm">
+				<div align="center" id="enrollDiv">
+					<table>
+						<tr>
+							<td><label for="id">사원번호</label></td>
+							<td><input type="text" name="id" id="id" class="enrollInput" required autofocus></td>
+						</tr>
+						<tr>
+							<td colspan="2"></td>
+						</tr>
+						<tr>
+							<td><label for="name">이름</label></td>
+							<td><input type="text" name="name" id="name" class="enrollInput" size="25" required></td>
+						</tr>
+						<tr>
+							<td><label for="job">직업</label></td>
+							<td><input type="text" name="job" id="job" class="enrollInput" size="25" required></td>
+						</tr>
+						<tr>
+							<td><label for="mgr">매니저</label></td>
+							<td>
+								<select name="mgr" class="enrollInput select">
+									<option>---------------------------------------</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="sal">급여</label></td>
+							<td><input type="number" name="sal" class="enrollInput" id="sal" size="25" value="0"></td>
+						</tr>
+						<tr>
+							<td><label for="comm">커미션</label></td>
+							<td><input type="number" name="comm" class="enrollInput" id="comm" size="25" value="0"></td>
+						</tr>
+						<tr>
+							<td><label for="dept">부서</label></td>
+							<td>
+								<select name="dept" class="enrollInput select">
+									<option>---------------------------------------</option>
+									<option value="10">ACCOUNTING</option>
+									<option value="20">RESEARCH</option>
+									<option value="30">SALES</option>
+									<option value="40">OPERATIONS</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="isAdmin">관리자 여부</label></td>
+							<td>
+								<input type="checkbox" name='isAdmin' id="isAdmin" value="Y">
+							</td>
+						</tr>
+					</table>
+					<br>
+					<button id="enrollButton">사원등록</button>
+				</div>
+			</form>
